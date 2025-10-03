@@ -1,0 +1,18 @@
+{
+  "name": "hubspot-healers-serverless",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node api/book-appointment.js",
+    "dev": "node api/book-appointment.js",
+    "test:local": "node scripts/test-runner.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
+
